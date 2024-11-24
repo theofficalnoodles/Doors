@@ -1,10 +1,10 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "Exc",
+   Name = "Exc Official Script DOORS",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
-   LoadingTitle = "Exc",
-   LoadingSubtitle = "by seekontop1",
+   LoadingTitle = "Exc Official Script DOORS",
+   LoadingSubtitle = "by seekontop1 and GrinesMr",
    Theme = "Default", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
    DisableRayfieldPrompts = false,
@@ -17,14 +17,14 @@ local Window = Rayfield:CreateWindow({
    },
 
    Discord = {
-      Enabled = false, -- Prompt the user to join your Discord server if their executor supports it
-      Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
+      Enabled = true, -- Prompt the user to join your Discord server if their executor supports it
+      Invite = "https://discord.gg/YE53ZeXAug", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
       RememberJoins = true -- Set this to false to make them join the discord every time they load it up
    },
 
    KeySystem = true, -- Set this to true to use our key system
    KeySettings = {
-      Title = "Untitled",
+      Title = "Ksc Official Script DOORS",
       Subtitle = "Key System",
       Note = "No method of obtaining the key is provided", -- Use this to tell the user how to get a key
       FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
