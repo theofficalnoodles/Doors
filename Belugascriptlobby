@@ -36,56 +36,56 @@ local Window = Rayfield:CreateWindow({
 
 local PlayerTab = Window:CreateTab("LocalPlayer", 4483362458) -- Title, Image
 
-local mspaint = Tab:CreateButton({
+local mspaint = PlayerTab:CreateButton({
    Name = "mspaint",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/notpoiu/mspaint/main/main.lua"))()
    end,
 })
 
-local BlackKing = Tab:CreateButton({
+local BlackKing = PlayerTab:CreateButton({
    Name = "Black King",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing-obf/main/Doors%20Blackking%20And%20BobHub"))()
    end,
 })
 
-local Shears = Tab:CreateButton({
+local Shears = PlayerTab:CreateButton({
    Name = "Shears",
    Callback = function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/shears_done.lua'))()
    end,
 })
 
-local Resizer = Tab:CreateButton({
+local Resizer = PlayerTab:CreateButton({
    Name = "Resize Stick",
    Callback = function()
    loadstring(game:HttpGet('https://gist.githubusercontent.com/IdkMyNameLoll/f0178af2301ca90c09895f10f3e7bd4b/raw/46899ccc3626f3485d85f990012f7ef37ae52e5e/resizerDoorsRemake'))()
    end,
 })
 
-local SeekGun = Tab:CreateButton({
+local SeekGun = PlayerTab:CreateButton({
    Name = "Seek Gun",
    Callback = function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/notpoiu/Scripts/main/seekgun.lua'))()
    end,
 })
 
-local StarJug = Tab:CreateButton({
+local StarJug = PlayerTab:CreateButton({
    Name = "Barrel Of Starlight",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/notpoiu/Scripts/refs/heads/main/StarJug.lua"))()
    end,
 })
 
-local Tablet = Tab:CreateButton({
+local Tablet = PlayerTab:CreateButton({
    Name = "Tablet",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/notpoiu/Scripts/refs/heads/main/Scanner.lua"))()
    end,
 })
 
-local Bird = Tab:CreateButton({
+local Bird = PlayerTab:CreateButton({
    Name = "HELL YEAHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH",
    Callback = function()
    loadstring(game:HttpGet("https://pastebin.com/raw/PFERptU5", true))()
