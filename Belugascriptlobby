@@ -12,7 +12,7 @@ local Window = Rayfield:CreateWindow({
 
    ConfigurationSaving = {
       Enabled = true,
-      FolderName = nil, -- Create a custom folder for your hub/game
+      FolderName = true, -- Create a custom folder for your hub/game
       FileName = "Big Hub"
    },
 
@@ -70,3 +70,5 @@ local seekGun = PlayerTab:CreateButton({
    loadstring(game:HttpGet('https://raw.githubusercontent.com/notpoiu/Scripts/main/seekgun.lua'))()
    end,
 })
+
+Rayfield:LoadConfiguration()
