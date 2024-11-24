@@ -1,3 +1,8 @@
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Ksc Script",
+	Text = "Executed! Waiting for load...",
+	Icon = "rbxassetid://118170776374000"
+})
 if game.PlaceId == 6516141723 then  --- Lobby
 loadstring(game:HttpGet("https://raw.githubusercontent.com/theofficalnoodles/Doors/refs/heads/main/Belugascriptlobby"))()
 elseif game.PlaceId == 6839171747 then --- In Game
