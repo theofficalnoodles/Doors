@@ -101,3 +101,15 @@ local Fly = Tab:CreateToggle({
    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Fly.txt", Value))()
    end,
 })
+
+local SpeedBoost = Tab:CreateSlider({
+   Name = "SpeedBoost",
+   Range = {0, 40},
+   Increment = 10,
+   Suffix = "Speed",
+   CurrentValue = 10,
+   Flag = "Slider1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Callback = function(Value)
+   plr:FindFirstChildOfClass("Humanoid"):SetAttribute("SpeedBoost", Value)
+   end,
+})
