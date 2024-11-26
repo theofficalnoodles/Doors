@@ -113,3 +113,10 @@ local SpeedBoost = Tab:CreateSlider({
    plr:FindFirstChildOfClass("Humanoid"):SetAttribute("SpeedBoost", Value)
    end,
 })
+
+local Explorer = PlayerTab:CreateButton({
+   Name = "Dex Explorer",
+   Callback = function()
+   loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex%20Explorer.txt"))()
+   end,
+})
