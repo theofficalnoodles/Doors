@@ -120,3 +120,10 @@ local Explorer = PlayerTab:CreateButton({
    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex%20Explorer.txt"))()
    end,
 })
+
+local Anti Afk = PlayerTab:CreateButton({
+   Name = "Anti Afk",
+   Callback = function()
+   loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/anti-afk%20via%20autofocus.txt"))()
+   end,
+})
