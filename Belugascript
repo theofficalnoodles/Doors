@@ -138,7 +138,7 @@ local Btools = PlayerTab:CreateButton({
 local Yield = PlayerTab:CreateButton({
    Name = "Infinite Yield",
    Callback = function()
-   loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Infinite%20Yield.txt"))()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
    end,
 })
 
